@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter venus star mars haydn odin,$(TARGET_DEVICE)),)
+ifneq ($(filter venus star mars haydn odin odinx,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
