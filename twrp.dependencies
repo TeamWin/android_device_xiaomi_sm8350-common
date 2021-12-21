@@ -1,8 +1,0 @@
-[
-  {
-    "remote": "github",
-    "repository": "nebrassy/kernel_xiaomi_sm8350",
-    "target_path": "kernel/xiaomi/sm8350",
-    "branch": "android-11"
-  }
-]
