@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d10c9010_4fcbfec0",
+        "filename": "twrp/recovery/root/init.recovery.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2021-12-26T02:08:16Z",
+      "side": 1,
+      "message": "The test will conflict with adb when entering fastbootd mode, I moved it to on boot",
+      "revId": "5ce21839eb477f1fe398bf22b57bc7fea9e8f17c",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
