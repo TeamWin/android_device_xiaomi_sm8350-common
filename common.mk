@@ -549,6 +549,7 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
@@ -563,6 +564,7 @@ BOARD_USES_QCOM_FBE_DECRYPTION := true
 TW_LOAD_VENDOR_MODULES := "xiaomi_touch.ko fts_touch_spi.ko fts_touch_spi_k2.ko focaltech_touch.ko adsp_loader_dlkm.ko qti_battery_charger.ko"
 
 TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hardware.vibrator-ndk_platform \
     libandroidicu \
     libdisplayconfig.qti \
     libion \
