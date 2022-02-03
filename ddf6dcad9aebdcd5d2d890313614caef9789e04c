@@ -34,6 +34,24 @@
       "parentUuid": "69c0eba6_e6a3a197",
       "revId": "ddf6dcad9aebdcd5d2d890313614caef9789e04c",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c256f75c_0315b7da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 238
+      },
+      "writtenOn": "2022-02-03T14:45:20Z",
+      "side": 1,
+      "message": "This isn\u0027t working properly on the other sm8350 devices, infinite vibration, can you decommonize this?, just keep the service definition and the start command in init and move everything else to dt",
+      "parentUuid": "5088edb4_c97164d2",
+      "revId": "ddf6dcad9aebdcd5d2d890313614caef9789e04c",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
