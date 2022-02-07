@@ -134,7 +134,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
     android.hardware.boot@1.1-impl-qti.recovery \
-    android.hardware.boot@1.1-service
+    android.hardware.boot@1.1-service \
+    bootctrl.xiaomi_sm8350 \
+    bootctrl.xiaomi_sm8350.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
@@ -558,7 +560,7 @@ PLATFORM_VERSION := 127
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 
-TW_LOAD_VENDOR_MODULES := "xiaomi_touch.ko fts_touch_spi.ko fts_touch_spi_k2.ko focaltech_touch.ko"
+TW_LOAD_VENDOR_MODULES := "xiaomi_touch.ko fts_touch_spi.ko fts_touch_spi_k2.ko focaltech_touch.ko adsp_loader_dlkm.ko qti_battery_charger.ko"
 
 TARGET_RECOVERY_DEVICE_MODULES += \
     libandroidicu \
