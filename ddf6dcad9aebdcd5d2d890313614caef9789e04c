@@ -52,6 +52,24 @@
       "parentUuid": "5088edb4_c97164d2",
       "revId": "ddf6dcad9aebdcd5d2d890313614caef9789e04c",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "548d1bcf_7fd1e9a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 828
+      },
+      "writtenOn": "2022-02-20T14:26:16Z",
+      "side": 1,
+      "message": "Sorry for late response, real life got in the way. I\u0027ve decommonized this and moved to device tree.",
+      "parentUuid": "c256f75c_0315b7da",
+      "revId": "ddf6dcad9aebdcd5d2d890313614caef9789e04c",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
